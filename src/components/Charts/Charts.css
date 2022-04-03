@@ -1,0 +1,17 @@
+.charts-container{
+    width: 100%;
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 4px;
+}
+.chart{ 
+    margin: 0 auto;
+    padding: 5px;
+}
+
+
+@media (max-width:800px) {
+    .charts-container{
+        grid-template-columns: 1fr;
+    }
+}
