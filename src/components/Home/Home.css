@@ -1,9 +1,11 @@
 .home-btn{
     background-color: #bcb3f1;
-    /* color: #bcb3f1; */
     border: none;
     border-radius: 12px;
 }
+
+/* review button styles */
+
 .review-btn-link{
     text-decoration: none;
     color: black;

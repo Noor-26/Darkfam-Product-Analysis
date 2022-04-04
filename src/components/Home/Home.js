@@ -1,10 +1,11 @@
 import React, { useEffect, useState } from 'react';
 import { Link } from 'react-router-dom';
-import Review from '../Review/Review';
+import useReviewdata from '../../hooks/useReviewdata';
+import HomeReview from '../HomeReview/HomeReview';
 import './Home.css'
 
 const Home = () => {
-    const [reviews, setreviews] = useState([])
+    const [reviews, setreviews] = useReviewdata()
     const [cusReview,setCusReview] = useState([])
 
     useEffect(() => {
@@ -15,13 +16,7 @@ const Home = () => {
     }, [reviews])
     
     
-    useEffect(() => {
-      
-        fetch('reviews/review.json')
-        .then(res => res.json())
-        .then(data => setreviews(data))
     
-    }, [])
     
 
     return (
@@ -43,7 +38,7 @@ const Home = () => {
                <div className="row row-cols-1 row-cols-md-3 g-4">
                 {
 
-                        cusReview.map(review => <Review key={cusReview.id} data={review}/>)
+                        cusReview.map(review =><HomeReview key={cusReview.id} data={review}/> )
                      
                 }
                </div>
