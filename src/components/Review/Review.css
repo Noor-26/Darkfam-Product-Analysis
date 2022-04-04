@@ -3,3 +3,9 @@
     grid-template-columns: repeat(3,1fr);
     gap: 25px 10px;
 }
+
+@media (max-width:780px) {
+    .review-container{
+        grid-template-columns: 1fr;
+    }
+}

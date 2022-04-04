@@ -1,8 +1,20 @@
+# Darkfam mask shop
+
+Come visit my site [Darkfam Mask shop](https://darkfam-mask-shop.netlify.app/)
+
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Available Scripts
+* The website is based on a anime mask 
+* Down the home page there is 3 specific review of customers 
+* At the end of the page there is a button to see all the review of the customers
+* There is a dashboard page that contains 2 charts . on contains our monthly sell and other is investments vs revenue . The charts were created using react recharts.
+* In the blog page there are 2 answers given with the question on the top of the answers 
+
+##Available Scripts
 
 In the project directory, you can run:
 

@@ -1,4 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Satisfy&display=swap');
+
 .nav-item{
     margin: 0 20px;
     padding: 10px 0;
+}
+.navText{
+    font-family: 'Satisfy', cursive;
 }
