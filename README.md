@@ -8,6 +8,7 @@ Come visit my site [Darkfam Mask shop](https://darkfam-mask-shop.netlify.app/)
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+## below are some details about my website
 * The website is based on a anime mask 
 * Down the home page there is 3 specific review of customers 
 * At the end of the page there is a button to see all the review of the customers
