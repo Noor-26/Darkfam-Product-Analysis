@@ -1,0 +1,38 @@
+[
+    {
+        "id":1,
+        "name":"Ridoan",
+        "review":"Mask ta patla, kintu quality valo ache. Delivery o onek fast. Thanks Darkfam mask shop",
+        "ratings":5
+    },
+    {
+        "id":2,
+        "name":"tauhid",
+        "review":"Mask ta onk sundor hoise. Mask tar quality tao onk vlo. Thanks",
+        "ratings":4.5
+    },
+    {
+        "id":3,
+        "name":"shihab",
+        "review":"the material is good,it has inner lining and the print is embossed",
+        "ratings":3
+    },
+    {
+        "id":4,
+        "name":"Jhon",
+        "review":"The product is good and comfortable, its better than i expected",
+        "ratings":5
+    },
+    {
+        "id":5,
+        "name":"Shible",
+        "review":"The Quality is  Good. I'm Satisfied .",
+        "ratings":4
+    },
+    {
+        "id":6,
+        "name":"Anant",
+        "review":"best, as expected... looking forward to buying of other animes also.",
+        "ratings":5
+    }
+]

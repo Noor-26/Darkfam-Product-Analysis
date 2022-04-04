@@ -5,7 +5,7 @@ import { Area, AreaChart, CartesianGrid, Legend, Line, LineChart, Tooltip, XAxis
 
 const Charts = () => {
     return (
-        <div className="charts-container">
+        <div className="charts-container mt-4">
             <div className="chart">
                 <h3>MONTH WISE SELL</h3>
                 <div>
@@ -36,7 +36,6 @@ const Charts = () => {
                     </AreaChart>
                 </div>
             </div>
-            
         </div>
     );
 };
