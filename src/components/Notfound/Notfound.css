@@ -1,0 +1,10 @@
+.error-container{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color:#bff7bf;
+    padding: 0;
+}
+.error-text{
+    color: green;
+}

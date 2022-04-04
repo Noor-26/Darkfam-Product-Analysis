@@ -34,7 +34,7 @@ const Home = () => {
             </div>
            
            <div className="my-5 container ">
-               <h3 className="text-center">Customer reviews</h3>
+               <h3 className="text-center mb-3">Customer reviews</h3>
                <div className="row row-cols-1 row-cols-md-3 g-4">
                 {
 
