@@ -1,17 +1,27 @@
 import React, { useEffect, useState } from 'react';
+import Review from '../Review/Review';
 import './Home.css'
 
 const Home = () => {
     const [reviews, setreviews] = useState([])
+    const [cusReview,setCusReview] = useState([])
 
     useEffect(() => {
       
+        const custos = reviews.filter(review => review.id <=3)
+        setCusReview(custos)
     
+    }, [reviews])
+    
+    
+    useEffect(() => {
       
+        fetch('reviews/review.json')
+        .then(res => res.json())
+        .then(data => setreviews(data))
+    
     }, [])
     
-
-
 
     return (
         <div >
@@ -27,8 +37,18 @@ const Home = () => {
             </div>
             </div>
            
-           <div className="mt-3 container">
+           <div className="my-5 container ">
                <h3 className="text-center">Customer reviews</h3>
+               <div className="row row-cols-1 row-cols-md-3 g-4">
+                {
+
+                        cusReview.map(review => <Review key={cusReview.id} data={review}/>)
+                     
+                }
+               </div>
+               <div  className=" text-center w-100">
+                   <button>See All Review</button>
+               </div>
            </div>
         </div>
     );
