@@ -1,4 +1,5 @@
 import React, { useEffect, useState } from 'react';
+import { Link } from 'react-router-dom';
 import Review from '../Review/Review';
 import './Home.css'
 
@@ -46,8 +47,8 @@ const Home = () => {
                      
                 }
                </div>
-               <div  className=" text-center w-100">
-                   <button>See All Review</button>
+               <div  className=" text-center my-3 w-100">
+                   <button className="review-btn"><Link to="/review" className="review-btn-link">See All Reviews</Link></button>
                </div>
            </div>
         </div>
